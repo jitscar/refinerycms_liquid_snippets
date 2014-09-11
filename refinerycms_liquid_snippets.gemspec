@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1.5"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency 'refinerycms'
+  s.add_dependency 'refinerycms-snippets'
+  s.add_dependency 'clot_engine'
+  s.add_dependency 'liquid'
 end
