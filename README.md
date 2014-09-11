@@ -1,0 +1,7 @@
+Using
+
+{% for part in page.parts %}
+        {% for snippet in part.snippets %}
+            {{ snippet.body }}
+        {% endfor %}
+    {% endfor %}
