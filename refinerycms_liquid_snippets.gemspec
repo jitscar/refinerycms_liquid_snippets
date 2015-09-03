@@ -7,11 +7,11 @@ require "refinerycms_liquid_snippets/version"
 Gem::Specification.new do |s|
   s.name        = "refinerycms_liquid_snippets"
   s.version     = RefinerycmsLiquidSnippets::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RefinerycmsLiquidSnippets."
-  s.description = "TODO: Description of RefinerycmsLiquidSnippets."
+  s.authors     = ["Your name"]
+  s.email       = ["Your email"]
+  s.homepage    = ""
+  s.summary     = ": Summary of RefinerycmsLiquidSnippets."
+  s.description = ": Description of RefinerycmsLiquidSnippets."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
